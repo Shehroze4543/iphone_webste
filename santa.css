@@ -1,0 +1,62 @@
+BODY {
+  background-color: lightgray;
+  padding-bottom: 500px;
+}
+.santa-div {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  text-align: center;
+  margin-left: 25%;
+}
+
+.santa-heading {
+  width: 350px;
+
+  margin-top: 120px;
+  margin-left: -75px;
+  -webkit-text-stroke: 0.5px black;
+  color: red;
+}
+.santa-img {
+  width: 300px;
+  margin-left: 5%;
+  margin-top: 50px;
+}
+
+.snow-btn {
+  width: 400px;
+  height: 100px;
+  margin-left: 25%;
+  background-color: dodgerblue;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+.enter-site {
+  width: 400px;
+  height: 100px;
+  margin-left: 25%;
+  background-color: dodgerblue;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+.enter-site-link {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.snow-gif {
+  margin-left: 0px;
+  background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzAwNjg3NTdmYWVjOWEzM2VlNGZhYTUyMjI4MGVmMGIxNjJhMmNhYiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PXM/Kfrq2V2A7wODGMdEXQ/giphy.gif");
+}
+
+.hidden {
+  display: none;
+}
+.visible {
+  display: block;
+}
