@@ -25,10 +25,9 @@
 }
 
 .left-box3-txt {
+  color: rgb(104, 98, 98);
   font-size: 15px;
   margin-top: 0px;
-}
-.heading-left-sec {
 }
 .right-sec-box {
   display: flex;
@@ -48,10 +47,21 @@
 .right-box2-img {
   width: 20px;
 }
+
+.right-box1-txt,
+.right-box2-txt {
+  color: rgb(104, 98, 98);
+}
 #line-100 {
   width: 220px;
   margin-left: 55px;
 }
 #line-109 {
   width: 280px;
+}
+
+.iphone-img {
+  margin-top: 40px;
+  margin-left: 80px;
+  width: 1400px;
 }
